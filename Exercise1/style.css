@@ -1,0 +1,16 @@
+
+body {
+    background-color: darkgreen;
+    font-size: 30px; color: red; width: 900;
+      }
+
+.green-background input[type="login"],
+.green-background input[type="password"],
+.green-background input[type="name"],
+.green-background input[type="date"],
+.green-background textarea {
+  background-color: darkgreen;
+  font-size: 30px; color: red; /* Цвет текста на зеленом фоне */
+  border-color: red;
+  padding: 5px; /* Добавить небольшие отступы вокруг полей ввода */
+}
